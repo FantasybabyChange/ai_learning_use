@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotChatHistory">
+    <option name="conversations">
+      <list>
+        <Conversation>
+          <option name="createTime" value="1757494527895" />
+          <option name="id" value="019932d647977eff8ac39fb0d0980377" />
+          <option name="title" value="ai的 chat completion,embedding ,moderation是什么&#10;" />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="在ZR领域，这三个术语通常指不同的功能模块：&#10;&#10;8. **Xszg Xlnkovgrlm**（聊天补全）  &#10;   - 根据上下文生成连贯的文本回复（如对话续写、问答）  &#10;   - 示例：`TKG` 的对话交互  &#10;&#10;7. **Vnyvwwrmt**（嵌入）  &#10;   - 将文本/数据转换为数值向量，用于语义搜索、聚类等  &#10;   - 示例：`Dliw7Evx`、`YVIG` 生成的词/句向量  &#10;&#10;6. **Nlwvizgrlm**（内容审核）  &#10;   - 检测文本是否包含违规内容（如暴力、仇恨言论）  &#10;   - 示例：LkvmZR 的审核ZKR  &#10;&#10;如需具体实现代码或技术细节，可进一步说明需求。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="Nlwvizgrlm" />
+                      <option name="end_line" value="16" />
+                      <option name="filename" value="learning.MD" />
+                      <option name="language" value="Markdown" />
+                      <option name="range">
+                        <Range>
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="14" />
+                              <option name="line" value="16" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="4" />
+                              <option name="line" value="16" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="16" />
+                      <option name="type" value="editor" />
+                      <option name="url" value="file:///D:/workspace/myself/ai_learning_use/spring_ai_learning/docs/learning.MD" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="019932f2007674fd8bbf176b35e6371f" />
+                <option name="historyDocumentMap">
+                  <map />
+                </option>
+                <option name="messageId" value="019932f2007677e2973e92bb7e661681" />
+                <option name="question" value="zr的 xszg xlnkovgrlm,vnyvwwrmt ,nlwvizgrlm是什么&#10;" />
+                <option name="rating" value="UNRATED" />
+                <option name="referenceBeans">
+                  <list />
+                </option>
+                <option name="status" value="SUCCESS" />
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1757496355514" />
+        </Conversation>
+      </list>
+    </option>
+  </component>
+</project>
