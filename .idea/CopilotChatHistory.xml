@@ -4,6 +4,12 @@
     <option name="conversations">
       <list>
         <Conversation>
+          <option name="createTime" value="1760084634442" />
+          <option name="id" value="0199cd382b4a7a8cbc43756de0f0b40e" />
+          <option name="title" value="新对话 2025年10月10日 16:23:54" />
+          <option name="updateTime" value="1760084634442" />
+        </Conversation>
+        <Conversation>
           <option name="createTime" value="1759209190685" />
           <option name="id" value="01999909f51d7c76bca622bc1f68059e" />
           <option name="title" value="Ai 的insights 是什么意思 " />
