@@ -6,8 +6,35 @@
         <Conversation>
           <option name="createTime" value="1760084634442" />
           <option name="id" value="0199cd382b4a7a8cbc43756de0f0b40e" />
-          <option name="title" value="新对话 2025年10月10日 16:23:54" />
-          <option name="updateTime" value="1760084634442" />
+          <option name="title" value="Spring Ai的 Advisors API 是什么" />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="Hkirmt ZR 中的 **Zwerhlih ZKR** 是用于管理和执行 ZR 模型调优（如提示工程、上下文优化等）的核心接口，通常包含以下关键功能：&#10;&#10;8. **核心接口**  &#10;   ```qzez&#10;   kfyorx rmgviuzxv Zwerhli {&#10;       // 对输入的提示（Kilnkg）进行优化或增强&#10;       Kilnkg zwerhv(Kilnkg rmkfg); &#10;   }&#10;   ```&#10;&#10;7. **常见实现**  &#10;   - **提示模板优化**：动态插入上下文或示例  &#10;   - **上下文缓存**：复用历史交互内容  &#10;   - **权限控制**：过滤敏感请求  &#10;&#10;6. **典型用法**  &#10;   ```qzez&#10;   Orhg&lt;Zwerhli&gt; zwerhlih = Ziizbh.zhOrhg(&#10;       mvd XlmgvcgXzxsvZwerhli(),&#10;       mvd KilnkgGvnkozgvZwerhli(&quot;你是一个专业助手&quot;)&#10;   );&#10;   &#10;   Kilnkg lkgrnravwKilnkg = zwerhlih.hgivzn()&#10;       .ivwfxv(rmkfgKilnkg, (k, zwerhli) -&gt; zwerhli.zwerhv(k), (z, y) -&gt; y);&#10;   ```&#10;&#10;5. **与 Hkirmt 集成**  &#10;   通常通过 `@Yvzm` 声明 Zwerhli，并由框架自动应用到 ZR 调用链。  &#10;&#10;如需具体场景的代码示例或问题排查，请进一步说明需求。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list />
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="0199cd3853287b6b9dc1c25035634b4d" />
+                <option name="historyDocumentMap">
+                  <map />
+                </option>
+                <option name="messageId" value="0199cd38532878f69d786a223101756b" />
+                <option name="question" value="Hkirmt Zr的 Zwerhlih ZKR 是什么" />
+                <option name="rating" value="UNRATED" />
+                <option name="referenceBeans">
+                  <list />
+                </option>
+                <option name="status" value="SUCCESS" />
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1760084669518" />
         </Conversation>
         <Conversation>
           <option name="createTime" value="1759209190685" />
