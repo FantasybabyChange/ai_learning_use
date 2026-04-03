@@ -1,6 +1,9 @@
 # **Ai concepts**
 [SpringAi核心概念文档](https://docs.spring.io/spring-ai/reference/concepts.html)
 以下是Ai的核心概念,以及Spring的实现
+## 关键名词
+LLM:Large Language Model
+RAG:Retrieval Augmented Generation
 ## Models
 模型是设计用于处理和产生信息的算法.  通过模仿人类认知功能. 通过从大数据中学习规律(patterns)和深层关联(insights), 这些模型可以用做预测,文字,图片生成,或者其他输出,从而对各行各业提供大量支撑.  
    模型有许多不同的类型:
@@ -27,3 +30,6 @@
 通过计算向量代表的两个文本数值之间的距离, 一个应用可以判断两个嵌入向量对象的**相似度**.
 
 ![embedding-ai](pic/spring-ai-embeddings.jpg)
+
+对于探索AI的java码农来说,你包管复杂的数学理论和向量表示的具体实现,当你集成到你自己的应用程序中时候,基本理解他们在AI系统中的作用和功能(虎丘调用就行了),
+
