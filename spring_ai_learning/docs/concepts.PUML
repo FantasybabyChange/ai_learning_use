@@ -1,0 +1,73 @@
+@startmindmap
+skinparam mindmapDiagram {
+    node {
+        BackgroundColor #E3F2FD
+        LineColor #1976D2
+        LineThickness 2.0
+        Padding 12
+        Margin 8
+    }
+    rootNode {
+        BackgroundColor #1565C0
+        FontColor white
+        FontSize 18
+        LineColor white
+    }
+}
+
+title **Spring AI 核心概念思维导图**
+caption 基于 Spring AI 官方文档 Concepts 章节
+
+* **Spring AI Framework**
+** 目标
+*** 简化生成式 AI 在 Spring 应用中的集成
+*** 无需深厚机器学习知识
+*** 与 Spring Boot / Spring 生态无缝结合
+
+** 基础概念
+*** **AI Models（AI 模型）**
+**** 处理/生成文本、图像、音频
+**** 预训练模型（Pre-trained）
+**** 统一 Client 抽象层
+
+*** **Prompts & Templates（提示词与模板）**
+**** Prompt Engineering（提示工程）
+**** System + User + Assistant 角色
+**** Prompt Templates（动态填充，类似 View）
+
+*** **Embeddings（嵌入）**
+**** 文本/图像 → 高维向量
+**** 语义相似度计算（向量距离）
+**** RAG 的核心基础
+
+*** **Tokens（令牌）**
+**** 模型处理的基本单位
+**** 影响成本与上下文窗口限制
+**** 大文档需分块处理
+
+*** **Structured Output（结构化输出）**
+**** 将字符串输出转为 Java POJO 对象
+**** 通过 Prompt 技巧 + 多步交互实现
+
+** 数据与 API 接入
+*** **RAG（Retrieval Augmented Generation）**
+**** 解决模型知识截止日期问题
+**** ETL Pipeline：Extract → Transform（Chunk）→ Load（Vector Store）
+**** 查询流程：用户问题 → 检索相似文档 → 注入 Prompt → 生成回答
+**** Spring AI 支持：QuestionAnswerAdvisor
+
+*** **Tool Calling（工具调用）**
+**** 模型自主决定调用外部工具/API
+**** 使用 @Tool 注解简化实现
+**** 流程：定义 Tool → 模型调用 → 执行 → 返回结果 → 最终响应
+
+** 其他支持
+*** **Vector Stores（向量存储）**
+**** 专门存储 Embedding 向量
+**** 支持快速语义检索
+
+*** **Evaluation（评估）**
+**** 输出质量评估（相关性、事实性、一致性）
+**** Evaluator API 支持
+
+@endmindmap
