@@ -41,14 +41,39 @@
 - **distinct** | 不同的 | 明显区别的、各自独立的
 
 ## 3. Embeddings（嵌入）章节
-
-- **numerical representations** | 数值表示 | 用数字来表达的形式
-- **vectors** | 向量 | 带有方向和大小的数字数组
-- **dimensionality** | 维度 | 向量空间的维数（例如 1536 维）
-- **similarity** | 相似度 | 两个事物有多相像
+- **numerical representations** | 数值表示 | 用数字形式来表达内容（例：把一句话变成一串浮点数）
+- **capture** | 捕捉、抓住、完整记录 | 像相机拍下画面一样，把本质或关系完整记录下来
+- **arrays of floating point numbers** | 浮点数数组 | 一组带小数点的数字列表
+- **vectors** | 向量 | 带有方向和大小的数字序列，在 AI 中用来表示含义
+- **dimensionality** | 维度 | 向量到底有多少个数字（例如 1536 维）
+- **vector representations** | 向量表示 | 把文本转换成的向量形式
+- **numerical distance** | 数值距离 | 用数字计算出来的远近程度
+- **embedding vectors** | 嵌入向量 | 由 Embeddings 转换后的向量
+- **similarity** | 相似度 | 两个东西有多像
+- **exploring** | 探索、研究 | 尝试学习和了解新领域
+- **deeply understand** | 深入理解 | 非常深入、透彻地掌握
+- **intricate mathematical theories** | 错综复杂的数学理论 | 细节非常繁多、层层嵌套的复杂数学原理
+- **specific implementation details** | 具体的实现细节 | 实际代码里是怎么一步步实现的
+- **role and function** | 作用和功能 | 具体做什么、有什么用处
+- **integrate** | 集成、接入 | 把 AI 功能结合到你的程序中
+- **retrieval** | 检索、取回、获取 | 从大量数据中搜索并取出最匹配的内容（AI 中特指向量搜索过程）
+- **Retrieval Augmented Generation (RAG)** | 检索增强生成 | 先检索相关文档，再用这些文档增强 AI 生成答案的技术（最常用的 AI 进阶用法）
+- **real-world applications** | 实际应用 | 真实项目中的使用场景
+- **particularly** | 特别、尤其 | 强调某个部分尤其重要
+- **analogous to** | 类似于、就像……一样 | 用来比喻两种事物很像
+- **Euclidean geometry** | 欧几里得几何 | 中学学过的平面几何，用直线测量点和点之间的距离
+- **higher dimensions** | 更高的维度 | 超过二维的三维、四维甚至更多维
 - **semantic space** | 语义空间 | 含义相近的内容在多维空间中的位置
-- **proximity** | 接近性、邻近度 | 距离很近的状态
-- **semantic landscape** | 语义景观 | 对语义空间的形象化描述
+- **proximity** | 接近性、邻近度 | 距离有多近
+- **reflects** | 反映、体现、显示出 | 某事物显示出某种特征
+- **similarity of meaning** | 含义的相似性 | 意思有多接近
+- **multi-dimensional space** | 多维空间 | 具有多个维度的空间
+- **semantic landscape** | 语义景观 | 对语义空间的形象化描述，就像一张巨大的含义地图
+- - **aids** | 帮助、辅助、促进 | 正式说法，表示“助力某事变得更容易”（例：aids classification = 辅助分类）
+- **discern and group** | 辨别和分组 | 辨别并把相似的东西归为一组
+- **suffice** | 足够、足以 | 表示“刚好够用、不需要更多”
+- **relevant** | 相关的、切题的 | 与当前话题有直接联系
+  
 
 ## 4. Tokens（令牌）章节
 
