@@ -77,8 +77,25 @@
 
 ## 4. Tokens（令牌）章节
 
-- **building blocks** | 基本构件 | 最基础的组成单位
+- **building blocks** | 基本构件 | 最基础的组成单位，就像搭积木时的单个积木块
+- **roughly** | 大致、大约 | 接近某个数值，但不完全精确
+- **corresponds** | 对应、相当于 | 在数量或比例上与另一个事物匹配
+- **approximately** | 大约、近似、差不多 | 表示一个大概的数值或估算（正式书面语，常用于技术文档）
+- **reference** | 参考、参照 | 用来帮助理解的例子或数据
+- **hosted** | 托管 | 由云服务商运行并收费的模式
+- **constrained** | 受到限制、被约束 | 被某种规则限制住
+- **threshold** | 门槛、临界值 | 达到某个界限才生效的数值
 - **context window** | 上下文窗口 | 模型一次能处理的令牌上限
+- **essential** | 至关重要的、必不可少的 | 没有它就无法做好某事
+- **oddities** | 奇怪现象、异常情况 | 不正常或出人意料的表现
+- **universal** | 通用的、普遍的 | 对所有情况都适用的
+- **adversarial** | 对抗的、敌对的 | 故意设计来欺骗 AI 的
+- **triggers** | 触发器 | 能让 AI 产生特定反应的特殊输入
+- **universal adversarial triggers** | 通用对抗触发器 | 一种能让很多 AI 模型同时出现异常行为的特殊提示词
+- **AI-text detectors** | AI 文本检测器 | 用来判断一段文字是否由 AI 生成的工具
+- **in the context of** | 在……的场景中 / 在……背景下 | 用来引出讨论的具体环境或前提
+- **hosted** | 托管的 | 由云服务商负责运行和维护的模式（与本地部署相对）
+- **are subject to** | 受到……的限制 / 受……约束 / 须遵守…… | 表示某事物会受到某种规则或限制的影响，不能完全自由（例：Models are subject to token limits. = 模型受到令牌限制的约束）
 
 ## 5. Structured Output（结构化输出）章节
 
