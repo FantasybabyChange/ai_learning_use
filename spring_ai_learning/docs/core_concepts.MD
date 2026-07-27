@@ -56,7 +56,24 @@
  ```
    如同ChatGPT这样的大语言模型,他生产token而不是单词.尽管token经常变成完整的单词,理解其中的区别对理解LLM的配置如何影响他们的输出,为什么会出现通用对抗触发器(universal adversarial trigger)这种奇怪的现象,以及AI文本检测(AI-text detector)的工作等是很重要的.
  ```
- &emsp;&emsp; 也许更重要的是 tokens=money. 在AI模型托管的情况下,你使用token的数量决定你的费用. 输入输出都会被总体计入token count(令牌数量).
- &emsp;&emsp;当然,模型是受限于token的限制,在每个单一api的调用中文本处理的数量是受限的.而这个阈值通常称为"上下文窗口".当超过这个限制后模型不处理任何文本.
+&emsp;&emsp; 更重要的是 tokens=money. 在AI模型托管的情况下,你使用token的数量决定你的费用. 输入输出都会被总体计入token count(令牌数量).
+&emsp;&emsp;当然,模型是受限于token的限制,在每个单一api的调用中文本处理的数量是受限的.而这个阈值通常称为"上下文窗口".当超过这个限制后模型不处理任何文本.
+&emsp;&emsp;举个例子, ChatGPT3有4k个token限制,到了GTP4则提供了选择,比如8k,16k,和32k。Anthropic的Claude AI模型100k个token,Meta最新研究产生了1百万个token限制的模型.
+&emsp;&emsp; 通过GPT4对莎士比亚的工作进行收集总结,你需要设计软件工程策略去把数据切碎,并且在窗口上下文的限制中中呈现数据.Spring AI项目可以帮你.
+
+## Structured Output
+&emsp;&emsp; AI模型的输出,通常使用java.lang.String, 即使你要求用JSON,他也不是一个JSON数据结构,仅仅是个字符串.  当然,通过prompt要求"JSON格式"也不能保证百分百正确.
+&emsp;&emsp; 这种错综复杂促使一个专属领域产生,该领域涉及创建prompts来产生预期输出. 通过把结果字符串转换成可用的数据机构以用于应用集成.
+![structured output](pic/structured-output-architecture.jpg)
+&emsp;&emsp;结构化输出转换采用了精细化设计的提示,通常需要多次和模型交互来达到需要的格式.
+
+## Bringing Your Data & APIs to the AI Model（把你的数据与 API 接入到 AI 模型）
+&emsp;&emsp;如何给没有被训练的数据装备上AI模型?  
+&emsp;&emsp;有三个已存在的技术可以自定义把AI模型接入你的数据:  
+1. Fine Tuning: 
+2. Prompt Stuffing:
+3. Tool Calling:
+
+
 
 
