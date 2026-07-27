@@ -47,3 +47,6 @@ helm/Chart.lock
 ## local config
 /*/src/main/resources/*-local*.yaml
 /*/*/src/main/resources/*-local*.yaml
+
+## mimocode
+.mimocode/
