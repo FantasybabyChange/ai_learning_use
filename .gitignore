@@ -48,5 +48,10 @@ helm/Chart.lock
 /*/src/main/resources/*-local*.yaml
 /*/*/src/main/resources/*-local*.yaml
 
+## Python
+.venv/
+__pycache__/
+*.pyc
+
 ## mimocode
 .mimocode/
