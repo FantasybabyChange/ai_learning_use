@@ -70,7 +70,7 @@
 ## Bringing Your Data & APIs to the AI Model（把你的数据与 API 接入到 AI 模型）
 &emsp;&emsp;如何给没有被训练的数据装备上AI模型?  
 &emsp;&emsp;有三个已存在的技术可以自定义把AI模型接入你的数据:  
-1. Fine Tuning: 
+1. Fine Tuning(微调): This traditional machine learning technique involves tailoring the model and changing its internal weighting. However, it is a challenging process for machine learning experts and extremely resource-intensive for models like GPT due to their size. Additionally, some models might not offer this option.
 2. Prompt Stuffing:
 3. Tool Calling:
 
